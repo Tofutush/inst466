@@ -1,0 +1,27 @@
+{
+  "name": "inst466",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tofutush/inst466.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Tofutush/inst466/issues"
+  },
+  "homepage": "https://github.com/Tofutush/inst466#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^3.1.5",
+    "eleventy-plugin-vento": "^5.4.3"
+  }
+}
