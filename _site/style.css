@@ -1,9 +1,0 @@
-:root {
-	--off-black: #332e35;
-	--off-white: #faf3e5;
-}
-
-html {
-	color: var(--off-white);
-	background-color: var(--off-black);
-}
