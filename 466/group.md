@@ -4,4 +4,8 @@ title: Group members
 
 # Xuanqi Xie
 
-# names
+# Riley Tokofsky
+
+# Ashleigh Louie
+
+# Elaina Mangum
