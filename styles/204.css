@@ -28,6 +28,11 @@ nav {
 	justify-content: center;
 }
 
+main {
+	max-width: 960px;
+	margin: auto;
+}
+
 a,
 a:visited {
 	color: var(--accent);
