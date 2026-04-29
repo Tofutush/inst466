@@ -47,3 +47,44 @@ footer {
 	text-align: center;
 	margin: 1em;
 }
+
+.highlight {
+	background-color: #83254f33;
+}
+
+#resumes {
+	display: flex;
+	gap: 1em;
+	justify-content: center;
+
+	& a {
+		border: 2px solid var(--off-black);
+		flex: 1;
+		padding: 1em;
+		border-radius: 1em;
+		transition: transform .3s;
+
+		&:hover {
+			transform: translateY(-.3em);
+		}
+	}
+}
+
+.resume {
+	border: 2px solid var(--off-black);
+	border-radius: 1em;
+	padding: 1em;
+	max-width: 800px;
+	margin: auto;
+
+	& img {
+		float: left;
+		height: 260px;
+		margin: 0 1em 1em 0
+	}
+
+	& .highlight {
+		transition: all .3s;
+		cursor: pointer;
+	}
+}
